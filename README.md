@@ -18,12 +18,5 @@ We evaluated the performance of the ensemble using 16-fold cross-validation with
 The ensemble of classifiers achieved a mean f1_weighted score of X with a standard deviation of Y. This suggests that the ensemble is able to accurately classify the breast tumor tissue based on the histopathological images.
 
 ### **Usage**
-To use this code, simply clone the repository and run the main.py script. Make sure to install all the required packages listed in requirements.txt.
+To use this code, simply clone the repository and run the main.ipypb script. Make sure to install all the required packages listed in requirements.txt.
 
-bash
-Copy code
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
-pip install -r requirements.txt
-python main.py
-Note: Replace <your-username> and <your-repo> with your GitHub username and repository name, respectively.
