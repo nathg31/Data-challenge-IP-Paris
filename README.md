@@ -15,8 +15,10 @@ XGBoost: learning_rate=0.01, n_estimators=100, max_depth=10, n_jobs=-1, random_s
 We evaluated the performance of the ensemble using 16-fold cross-validation with the f1_weighted scoring metric. The mean and standard deviation of the cross-validation scores are reported in the output.
 
 ### **Results**
-The ensemble of classifiers achieved a mean f1_weighted score of X with a standard deviation of Y. This suggests that the ensemble is able to accurately classify the breast tumor tissue based on the histopathological images.
+![Result Challenge](image/resultat_challenge.png)
+
+The ensemble of classifiers achieved a mean f1_weighted score of 0.7789 with an accuracy of 0.8454. This suggests that the ensemble is able to accurately classify the breast tumor tissue based on the histopathological images.
 
 ### **Usage**
-To use this code, simply clone the repository and run the main.ipypb script. Make sure to install all the required packages listed in requirements.txt.
+To use this code, simply clone the repository and run the main.ipypb. Make sure to install all the required packages listed in requirements.txt.
 
